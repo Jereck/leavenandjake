@@ -2,6 +2,8 @@ import Image from 'next/image'
 import Link from 'next/link'
 import { Button } from "@/components/ui/button"
 import { Card, CardContent } from "@/components/ui/card"
+import Contact from "@/components/ui/contact"
+
 
 export default function Home() {
   return (
@@ -98,6 +100,8 @@ export default function Home() {
           </div>
         </section>
       </main>
+
+      <Contact />
 
       <footer className="bg-amber-800 text-white py-8">
         <div className="container mx-auto px-4">
